@@ -1,0 +1,9 @@
+years = [1996,1997,2000,2005,2002]
+def getAge(yearsList):
+    age_list= []
+    for hi in range(len(yearsList)):
+        year = yearsList[hi]
+        age = 2018 - year
+        age_list.append(age)
+    return(age_list)
+print(getAge(years))
